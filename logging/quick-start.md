@@ -69,5 +69,7 @@ public static void MoveOut(Robot robot, int width, int height)
 
 ```
 
+{% file src="../.gitbook/assets/astronaut-on-the-moon-with-bike.jpg" caption="Картинка астронавта" %}
+
 
 

@@ -1,6 +1,6 @@
 # Welcome to Vostok
 
-_A complete microservice toolkit for .NET developers._
+ _A complete microservice toolkit for .NET developers._
 
 Vostok has everything .NET developers need to create distributed systems. It enables intra-cluster interaction between microservices and collects their logs, metrics, and distributes traces out of the box. Vostok-enabled microservices are compatible with .NET Standard 2.0.
 

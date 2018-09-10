@@ -54,7 +54,20 @@ $$
 a = b
 $$
 
-{% file src="../.gitbook/assets/astronaut-on-the-moon-with-bike.jpg" %}
+```csharp
+public static void MoveOut(Robot robot, int width, int height)
+		{
+		    while (!robot.Finished)
+		    {
+		        MoveToNSteps(robot, width - 3, Direction.Right);
+		        MoveToNSteps(robot, 2, Direction.Down);
+		        MoveToNSteps(robot, width - 3, Direction.Left);
+                if (!robot.Finished)
+                    MoveToNSteps(robot, 2, Direction.Down);
+            }
+		}
+
+```
 
 
 
